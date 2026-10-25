@@ -1,2 +1,2 @@
 # OTS_Unisim
-A demo OTS for a chemical plant based on a Honeywell Unisim dynamic simulation
+A demo Operator Training Simulator (OTS) with limited features utilizing Unisim as the main simulator. It connects to a UniSim dynamic simulation using COM automation (win32com lib in Python) and provides a simple GUI (Python TKinter based) to start and stop the simulation, continuously monitor the inlet and outlet pressures over simulation time, and display live plot.
